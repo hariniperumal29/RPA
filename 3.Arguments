@@ -1,0 +1,47 @@
+Arguments in UiPath
+
+Arguments are used to pass data from one workflow (automation) to another workflow. They are similar
+to variables because they store data, but their main purpose is to exchange data between workflows
+----------------------------------------------------------------------------------------------------
+Diff B/w Variables and Arguments:
+
+Variables	Arguments
+1. Variables are used to store data within a workflow.      	  1. Arguments are used to pass data between workflows.
+2. Variables pass data between activities.                    	  2. Arguments pass data between automations/workflows.
+3. Variables have only Name, Data Type, Scope, and Default Value.	3. Arguments have Name, Direction, Data Type, and Default Value.
+4. Created in the Variables panel.	                              4. Created in the Arguments panel.
+5. Used for calculations and temporary data storage.            	5. Used for communication between workflows.
+6. Have a scope property.	                                          6. Have a direction property.
+---------------------------------------------------------------------------------------------------------------
+Example
+
+Suppose you have two workflows:
+
+Main.xaml
+
+Calls CalculateSalary.xaml
+Sends Employee ID using an In Argument
+
+CalculateSalary.xaml
+
+Receives Employee ID
+Calculates salary
+Sends Salary back using an Out Argument
+Types of Arguments
+
+Arguments support the same data types as variables:
+
+String - Stores text values
+Boolean - Stores True/False values
+Int32/Number - Stores numeric values
+Object - Stores any type of data
+Array - Stores a collection of values
+DataTable - Stores tabular data
+Generic Value - Stores different types of values dynamically
+DateTime - Stores date and time values
+Argument Directions
+Direction	Purpose
+In	Receives data into a workflow
+Out	Sends data out of a workflow
+In/Out	Receives and sends data
+Property	Used for library components
