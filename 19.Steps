@@ -1,0 +1,126 @@
+This is just the Machine Learning Lifecycle in UiPath AI Center. Don't memorize all the points. Understand the story. 😊
+
+Imagine you want to build a robot that identifies whether a customer email is:
+
+Positive 😀
+Negative 😠
+Neutral 😐
+
+Step 1: Data Collection & Preparation
+
+First collect examples.
+
+"I love your product"      → Positive
+"Very bad service"         → Negative
+"Need more information"    → Neutral
+
+
+Clean the data and remove mistakes.
+
+Remember:
+
+📚 Collect and clean data
+-----------------------------------
+
+Step 2: Model Training
+
+Give the cleaned data to a machine learning algorithm.
+
+The model learns:
+
+love → Positive
+good → Positive
+
+bad → Negative
+poor → Negative
+
+Remember:
+
+🧠 Model learns patterns
+
+------------------------------
+Step 3: Packaging & Versioning
+
+After training, save the model.
+
+Version 1.0
+Version 2.0
+Version 3.0
+
+
+Just like saving different versions of a project.
+
+Example
+V1 Accuracy = 80%
+V2 Accuracy = 90%
+
+Remember:
+
+📦 Save and track versions
+---------------------------------
+
+Step 4: Deployment
+
+Upload the trained model to UiPath AI Center.
+
+Now it becomes an ML Skill.
+
+Trained Model
+      ↓
+ AI Center
+      ↓
+ ML Skill
+
+Remember:
+
+🚀 Make the model available for use
+-----------------------------------
+
+Step 5: Integration with RPA
+
+Now connect the ML Skill to UiPath Robot.
+
+Example:
+
+Customer Email arrives
+
+Robot
+   ↓
+ML Skill
+   ↓
+Negative
+
+
+Robot automatically:
+
+Forward to Support Team
+
+Remember:
+
+🤖 Robot uses the model
+-----------------------------------
+
+Step 6: Monitoring & Improvement
+
+Check whether predictions are correct.
+
+Suppose:
+
+Actual = Positive
+Predicted = Negative
+
+
+Oops ❌
+
+Add more training data and retrain.
+
+Create:
+
+Version 4.0
+
+
+which performs better.
+
+Remember:
+
+🔧 Monitor and improve
