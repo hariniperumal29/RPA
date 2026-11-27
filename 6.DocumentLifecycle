@@ -1,0 +1,63 @@
+Document Understanding Life Cycle
+1. Digitization
+
+Digitization is the process of converting physical documents, scanned documents, images, or PDF files into machine-readable text using OCR (Optical Character Recognition).
+
+Importance:
+
+Converts paper documents into digital format.
+Makes data available for further processing.
+
+Example: A scanned invoice containing vendor name, invoice number, date, and amount is converted into editable text.
+
+2. Classification
+
+Classification is the process of identifying and categorizing the type of document.
+
+Importance:
+
+Determines whether the document is an invoice, receipt, purchase order, or other document type.
+Helps the system apply the correct extraction rules.
+
+Example: An invoice is classified as a Purchase Invoice, while a receipt is classified as a Payment Receipt.
+
+3. Classification Validation
+
+Classification Validation is the process of verifying whether the document has been classified correctly.
+
+Importance:
+
+Prevents incorrect document processing.
+Allows human verification when the system is uncertain.
+Improves the accuracy of the classification model.
+
+Example: If a Purchase Order is mistakenly classified as an Invoice, the user corrects the classification before further processing.
+
+4. Data Extraction
+
+Data Extraction is the process of extracting important information from a classified document.
+
+Importance:
+
+Automatically captures required fields.
+Reduces manual data entry.
+Increases speed and accuracy.
+
+Example: From an invoice, the system extracts:
+
+Vendor Name
+Invoice Number
+Invoice Date
+Quantity
+Total Amount
+5. Data Validation
+
+Data Validation is the process of verifying the extracted information before it is stored or used.
+
+Importance:
+
+Ensures data accuracy.
+Corrects OCR or extraction errors.
+Prevents incorrect information from entering business systems.
+
+Example: If the extracted amount is ₹5,000 instead of ₹50,000, the employee validates and corrects the value before approval.
