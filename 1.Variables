@@ -1,0 +1,42 @@
+What is a Variable in UiPath?
+
+A variable is used to store data that can change during the execution of a workflow. It can hold values such as text, 
+numbers, files, folders, dates, and more.
+A variable is a named storage location used to hold data that can change during the execution of a UiPath workflow.
+Variables can store different types of data such as strings, numbers, files, folders, and objects.
+Example:
+
+Name = "Harini" (String variable)
+Age = 19 (Integer variable)
+
+Variables help you save information and use it later in your automation process.
+---------------------------------------------------------------------------------------------------------------------------
+How to Create a Variable in UiPath
+
+Method 1: Using Ctrl + K
+
+Select an activity.
+Click in the input/output field where you want the variable.
+Press Ctrl + K.
+Type the variable name and press Enter.
+
+Method 2: Using the Variables Panel
+
+Open the Variables panel at the bottom of the Designer.
+Click Create Variable.
+Enter the variable name, type, and scope.
+------------------------------------------------------------------------------------------------------------------
+
+How to Delete a Variable
+
+Method 1: From Variables Panel
+
+Open the Variables panel.
+Select the variable.
+Right-click and choose Delete.
+
+Method 2: Remove Unused Variables
+
+Go to the Design tab.
+Click Remove Unused Variables.
+UiPath automatically deletes variables that are not being used.
