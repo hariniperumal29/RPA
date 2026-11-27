@@ -1,0 +1,152 @@
+What is Screen Scraping?
+
+Screen Scraping is an RPA technique used to extract text and information from applications, websites, and computer screens.
+-----------------------
+UiPath provides 3 Screen Scraping Methods:
+
+Full Text
+Native
+OCR (Optical Character Recognition)
+----------------------------------------------
+
+A. Full Text Method
+Definition
+
+Extracts text directly from the application's underlying text layer.
+
+Working Principle
+Reads actual text behind the UI.
+Uses accessibility information.
+No image processing required.
+Works when text is selectable/readable by the system.
+Advantages
+
+✅ Very Fast
+
+✅ High Accuracy
+
+✅ Resource Efficient
+
+Disadvantages
+
+❌ Does not preserve text position/layout
+
+❌ Fails if text is available only as an image
+
+Example
+
+Student Management System:
+
+Student Name: Ravi
+USN: 12345
+Department: CSE
+
+Full Text directly extracts:
+
+Ravi
+12345
+CSE
+
+Applications
+Desktop applications
+Web pages
+Forms
+Exam Point
+
+Fastest method but does not preserve layout.
+----------------------------------------------
+
+B. Native Method
+Definition
+
+Extracts text using the application's native UI technology and preserves positional information.
+
+Working Principle
+Detects text elements.
+Retrieves text and coordinates.
+Maintains relative arrangement of text.
+Advantages
+
+✅ High Accuracy
+
+✅ Preserves Layout
+
+✅ Captures position of text
+
+Disadvantages
+
+❌ Slightly slower than Full Text
+
+❌ Depends on application's UI technology
+
+Example
+
+Invoice Screen:
+
+Invoice No: INV101
+Date: 18/11/2026
+Amount: ₹5000
+
+
+Native Scraping extracts:
+
+Invoice No → Position A
+Date → Position B
+Amount → Position C
+
+
+and preserves their locations.
+
+Applications
+Structured desktop applications
+Tables
+Forms
+Reports
+Exam Point
+
+Maintains layout and text position better than Full Text.
+---------------------------------------------------------
+
+C. OCR (Optical Character Recognition)
+Definition
+
+Extracts text from images, scanned documents, virtual machines, Citrix environments, and remote desktops.
+
+Working Principle
+Takes screenshot/image.
+OCR engine recognizes characters.
+Converts image text into editable text.
+Advantages
+
+✅ Works on images
+
+✅ Works in Citrix and Remote Desktop
+
+✅ Can read scanned PDFs
+
+Disadvantages
+
+❌ Slowest method
+
+❌ Accuracy depends on image quality
+
+❌ More processing required
+
+Example
+
+Image contains:
+
+WELCOME TO BANK
+Account Number: 123456
+
+
+OCR converts image text to:
+
+WELCOME TO BANK
+123456
+
+Applications
+Scanned PDFs
+Images
+Citrix
+Remote Machines
