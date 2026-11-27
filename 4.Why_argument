@@ -1,0 +1,103 @@
+Why Do We Need Arguments?
+
+Consider two workflows:
+
+Main.xaml – Receives a number from the user.
+AnalyzeNumber.xaml – Checks whether the number is Odd/Even, Positive/Negative, etc.
+
+The question is:
+
+How does AnalyzeNumber.xaml get the number from Main.xaml?
+How does Main.xaml receive the result from AnalyzeNumber.xaml?
+
+✅ Arguments act as a communication bridge between workflows. 
+They are used to send and receive data between different XAML files.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Properties of Arguments
+1. Name
+
+The Name property specifies the unique name of the argument.
+
+Example:
+
+Plain Text
+in_Number
+out_Result
+-------------------------------------------------------
+2. Direction
+
+The Direction property specifies how data flows.
+
+Direction	Purpose
+In	Receives data into the workflow
+Out	Sends data out of the workflow
+In/Out	Receives and returns data
+Property	Used in library components
+
+Example:
+
+Plain Text
+in_Number → Input Argument
+out_Message → Output Argument
+-------------------------------------------------
+3. Argument Type
+
+The Argument Type property specifies the type of data stored in the argument.
+
+Examples:
+
+String
+Int32
+Boolean
+Object
+DataTable
+Array
+DateTime
+------------------------------------------------------------------------------------------
+4. Default Value
+
+The Default Value property specifies the initial value assigned to the argument.
+
+Example:
+
+Plain Text
+in_Name = "Harini"
+in_Number = 10
+
+-------------------------------------------------------------------------------------------
+5. IsRequired
+
+The IsRequired property makes an argument mandatory.
+
+✅ If selected, a value must be provided when the workflow is called.
+-----------------------------------------------------------------------------------------
+
+Additional Argument Options
+
+(i) Convert to Variable
+
+Converts an argument into a variable of the same data type.
+
+(ii)Copy
+
+Copies arguments along with their name, type, and default value to another workflow.
+
+(iii)Paste
+
+Pastes copied arguments into another workflow.
+
+(iv)Delete
+
+Removes the argument from the Arguments panel.
+
+(v)Design Properties
+
+Allows you to add or edit comments and tooltips for the argument.
+
+(vi)Add Watch
+
+Adds the argument to the Watch panel during debugging.
+
+(vii)Find References
+
+Displays all places where the argument is used in the project.
