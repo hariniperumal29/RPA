@@ -1,0 +1,79 @@
+Types of Variables in UiPath
+
+Text Variables (String)
+ Text variables are used to store text values such as names, messages, and addresses.
+
+True/False Variables (Boolean)
+ Boolean variables are used to store logical values, either True or False.
+
+Number Variables (Integer/Double)
+ Number variables are used to store numeric values such as integers and decimal numbers.
+
+Array Variables
+ Array variables are used to store a collection of values of the same data type, such as multiple integers or strings.
+
+Date and Time Variables (DateTime)
+ Date and Time variables are used to store date and time information.
+
+Data Table Variables (DataTable)
+ Data Table variables are used to store data in a tabular format consisting of rows and columns.
+
+Generic Variables (Object)
+ Generic variables are used to store different types of data when the exact data type is not known in advance.
+ ------------------------------------------------------------------------------------------------------------
+
+ Properties of a Variable in UiPath
+1. Name
+
+The Name property specifies the identifier used to refer to the variable throughout the workflow.
+
+Example:
+
+Plain Text
+employeeName
+totalAmount
+currentDate
+2. Data Type
+
+The Data Type property defines the kind of data that the variable can store.
+
+Examples:
+
+Data Type	Stores
+String	Text values
+Int32	Whole numbers
+Boolean	True/False values
+DateTime	Date and time values
+DataTable	Tabular data
+Array	Collection of values
+
+Example:
+
+Plain Text
+employeeName → String
+age → Int32
+isValid → Boolean
+3. Scope
+
+The Scope property determines where the variable can be accessed within the workflow.
+
+Example:
+
+Scope = Main → Variable can be used throughout the Main workflow.
+Scope = Sequence1 → Variable can be used only inside Sequence1.
+
+Think of Scope as the visibility area of a variable.
+
+4. Default Value
+
+The Default Value property assigns an initial value to the variable when it is created.
+
+Examples:
+
+Plain Text
+employeeName = "Harini"
+age = 20
+isValid = True
+currentDate = 20/12/2026
+
+If no default value is provided, UiPath assigns a default value based on the data type (e.g., 0 for numbers, False for Boolean, Nothing for String).
