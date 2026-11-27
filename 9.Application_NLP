@@ -1,0 +1,88 @@
+Language Detection
+Definition
+
+Language Detection is the process of identifying the language in which a given text is written.
+
+Examples
+Input Text	Detected Language
+Good Morning	English
+Bonjour	French
+Hola	Spanish
+ನಮಸ್ಕಾರ	Kannada
+வணக்கம்	Tamil
+Application in UiPath
+
+A company may receive emails in different languages. 
+UiPath can use a Language Detection ML model to identify the language and automatically 
+route the email to the appropriate support team.
+
+-----------------------------------------------------------------------------------------
+2. Sentiment Analysis
+Definition
+
+Sentiment Analysis is the process of identifying the emotional tone, opinion, or feeling expressed in a piece of text.
+
+It generally classifies text into three categories:
+
+Types of Sentiment
+
+✅ Positive
+
+Example:
+
+"I love this product."
+
+✅ Negative
+
+Example:
+
+"The product is damaged."
+
+✅ Neutral
+
+Example:
+
+"Product received yesterday."
+
+Application in UiPath
+
+After analyzing customer reviews, UiPath can:
+
+Store positive reviews in Excel.
+Send negative reviews to customer support.
+Maintain neutral reviews for analysis.
+---------------------------------------------------------
+Machine Learning (ML)
+Definition
+
+Machine Learning (ML) is a branch of Artificial Intelligence that enables 
+computers to learn patterns from data and make predictions without being explicitly programmed for every condition.
+
+Example
+
+Instead of creating hundreds of rules to identify positive and negative reviews,
+a trained ML model can automatically predict the sentiment.
+----------------------------------------------------------------------------
+4. ML Skills in UiPath
+Definition
+
+An ML Skill in UiPath is a deployed Machine Learning model that can be used inside UiPath automation workflows.
+
+Purpose
+
+ML Skills allow UiPath robots to:
+
+Analyze text
+Classify documents
+Detect languages
+Predict sentiments
+Make intelligent decisions
+Example
+
+Customer Review:
+
+"The product quality is excellent."
+
+Sentiment Analysis ML Skill → Positive
+
+UiPath then stores the review automatically.
