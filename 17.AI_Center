@@ -1,0 +1,130 @@
+What is AI Center?
+One-line Definition
+
+UiPath AI Center is a platform that allows Machine Learning models to be deployed,
+managed, and used inside UiPath automation workflows.
+
+
+Why do we need AI Center?
+
+Imagine you created a trained model:
+
+Invoice Classifier
+
+
+Without AI Center: ❌ UiPath cannot easily use it.
+
+With AI Center:
+
+✅ Deploy model
+ ✅ Store model
+ ✅ Version control
+ ✅ Use inside UiPath Studio
+ --------------------------------------------
+
+AI Center Cycle (Most Important for Exam)
+Step 1: Choose Model
+
+Pick a trained ML model.
+
+Example:
+
+Invoice Classifier
+Sentiment Analyzer
+Fraud Detection Model
+
+
+↓
+
+Step 2: Deploy on AI Center
+
+Upload model to AI Center.
+
+↓
+
+Step 3: Consume
+
+Drag the ML Skill into UiPath workflow.
+
+Robot
+   ↓
+ML Skill
+   ↓
+Prediction
+
+
+↓
+
+Step 4: Human Validation
+
+If model is unsure:
+
+Human checks result
+
+
+↓
+
+Step 5: Improve
+
+Use corrected data to retrain model.
+
+---------------------------------------
+Role of AI Center
+1. ML Integration
+
+Connects Machine Learning with RPA.
+
+AI + RPA = Intelligent Automation
+
+2. Model Training
+
+Train models using datasets.
+
+Example:
+
+1000 invoices
+
+
+Model learns invoice patterns.
+
+3. Model Management
+
+Stores different versions.
+
+Invoice_Model_v1
+Invoice_Model_v2
+Invoice_Model_v3
+
+4. Model Deployment
+
+Makes model available as an ML Skill.
+
+5. Prediction
+
+Robot sends data.
+
+Example:
+
+Invoice Image
+
+
+Model returns:
+
+Invoice
+95% confidence
+
+6. Automation Enhancement
+
+Makes robots smarter.
+
+Instead of:
+
+IF ELSE rules
+
+
+Robot can:
+
+Predict
+Classify
+Analyze
+Decide
