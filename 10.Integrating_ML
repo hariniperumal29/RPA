@@ -1,0 +1,55 @@
+Basic Process of ML Skill in UiPath
+
+This slide explains how a Machine Learning model works together with UiPath to automate decisions and actions.
+
+Step 1: Input Data
+
+The process begins by providing data to the ML model.
+
+Examples:
+
+Customer feedback
+Email text
+Reviews
+Support requests
+
+Example Input:
+
+"I am extremely unhappy with your service."
+
+Step 2: ML Model
+
+The Machine Learning model analyzes the input data using patterns learned from previous data.
+
+Instead of following fixed rules, the model predicts the meaning or category of the text.
+
+Step 3: Prediction
+
+Based on the analysis, the ML model generates a prediction.
+
+For sentiment analysis, the prediction may be:
+
+Positive
+Negative
+Neutral
+
+Example:
+
+"I am extremely unhappy with your service."
+
+Prediction:
+
+Negative Sentiment
+
+Step 4: UiPath RPA Action
+
+UiPath receives the prediction and automatically performs an action.
+
+Examples:
+
+Send an email
+Update Excel
+Create a ticket
+Route a complaint to customer support
+
+Example: Since the sentiment is Negative, UiPath automatically sends an alert to the Customer Support Team.
