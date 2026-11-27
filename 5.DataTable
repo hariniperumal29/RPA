@@ -1,0 +1,43 @@
+Define DataTable Variables in UiPath
+
+A DataTable variable in UiPath is a special type of variable used to store and manage data in
+a tabular format consisting of rows and columns, similar to an Excel worksheet or a database table.
+
+A DataTable can store multiple records together instead of storing each value in separate variables.
+
+-----------------------------------------------------------------------------------------------------
+Organization of Data
+
+In a DataTable:
+
+Columns represent the categories or fields of information.
+Rows represent individual records or entries.
+
+Example:
+
+Employee ID	Name	Department
+101	Harini	AI & DS
+102	Rahul	CSE
+103	Priya	IT
+
+Here:
+
+Employee ID, Name, Department are columns.
+Each employee record is stored in a separate row.
+----------------------------------------------------------
+Importance of DataTable Variables
+
+Store Large Amounts of Structured Data
+ DataTables can store multiple records in a single variable.
+
+Manage Data Efficiently
+ They allow sorting, filtering, updating, and deleting data easily.
+
+Transfer Data Between Applications
+ Data can be read from Excel, databases, or websites and then written to another application.
+
+Support Data Processing
+ They are useful for generating reports, analyzing information, and performing calculations.
+
+Enable Data Migration
+ DataTables help transfer data from one system to another without losing structure.
