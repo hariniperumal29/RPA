@@ -1,0 +1,59 @@
+OCR and Types of OCR
+Optical Character Recognition (OCR)
+
+OCR (Optical Character Recognition) is a technology that converts text present in images,
+scanned documents, and PDF files into machine-readable text. In UiPath, OCR enables robots to read and process documents automatically without manual data entry.
+
+Example:
+ A scanned invoice can be converted into text containing Invoice Number, Supplier Name, Invoice Date, and Total Amount.
+--------------------------------------------------------------------------------------------------
+Types of OCR
+1. Tesseract OCR
+
+Tesseract OCR is an open-source OCR engine used to recognize text from scanned images and documents.
+
+Features:
+
+Open-source and free to use.
+Developed by HP and later maintained by Google.
+Supports multiple languages.
+Can run locally without cloud connectivity.
+Suitable for clear and high-quality printed text.
+
+Example:
+ Reading invoice numbers, supplier names, and amounts from scanned invoices.
+
+2. Microsoft OCR
+
+Microsoft OCR is a cloud-based OCR service provided through Microsoft 
+Azure that extracts text using Artificial Intelligence.
+
+Features:
+
+Cloud-based OCR service.
+Uses AI-based image recognition.
+Supports multiple languages.
+Can process printed and handwritten text.
+Suitable for complex documents and images.
+Requires Azure credentials and internet access.
+
+Example:
+ Extracting text from scanned application forms and business documents.
+
+3. Google Cloud OCR
+
+Google Cloud OCR is a cloud-based OCR service provided by Google
+Cloud that uses Machine Learning and Computer Vision technologies.
+
+Features:
+
+Cloud-based OCR service.
+Uses Machine Learning and Computer Vision.
+Supports printed and handwritten text recognition.
+Detects text from images and scanned documents.
+Provides advanced document text recognition.
+Requires Google Cloud API access and credentials.
+
+Example:
+ Extracting text from scanned receipts, invoices, and forms.
+
