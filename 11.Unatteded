@@ -1,0 +1,119 @@
+What is an Unattended Robot?
+Easy Understanding
+
+An Unattended Robot is a software robot that performs tasks automatically without any human intervention.
+
+It works in the background and can execute tasks based on schedules or triggers.
+
+Examples
+Processing invoices
+Generating reports
+Updating databases
+Sending emails
+Real-Life Example
+
+Suppose every day at 9 PM a company receives 500 invoices.
+
+Instead of an employee manually:
+
+Opening invoices
+Extracting data
+Updating database
+Sending confirmation email
+
+An unattended robot performs all these steps automatically without anyone logging in or clicking anything.
+
+--------------------------
+Components Used
+
+UiPath Studio
+Used to create automation workflows.
+Design the automation process.
+
+UiPath Orchestrator
+Used to manage, monitor, deploy and schedule robots.
+Controls robot execution.
+
+----------------------------
+
+2. Deployment of an Unattended Robot
+
+
+Step 1: Create Automation Workflow
+
+Using UiPath Studio, create the automation process.
+
+Example: Invoice Processing Bot.
+
+Exam Point
+
+Design automation activities using UiPath Studio.
+
+Step 2: Test the Workflow
+
+Check whether the workflow works correctly.
+
+Activities:
+
+Execute workflow
+Debug errors
+Handle exceptions
+Exam Point
+
+The workflow is executed and tested for debugging and exception handling.
+
+Step 3: Publish the Automation Project
+
+Convert the developed project into a deployable package.
+
+Exam Point
+
+The automation project is published as a package for deployment.
+
+Step 4: Provision and Connect Unattended Robot
+
+Configure:
+
+Machine
+Robot
+User credentials
+
+Connect robot with Orchestrator.
+
+Exam Point
+
+The unattended robot is provisioned and connected to Orchestrator.
+
+Step 5: Create Process in Orchestrator
+
+Import the published package into Orchestrator.
+
+Configure process settings.
+
+Exam Point
+
+A process is created using the published package.
+
+Step 6: Execute Job
+
+Orchestrator assigns the process to the robot.
+
+Robot starts execution.
+
+Exam Point
+
+Orchestrator triggers the job and assigns tasks to the robot.
+
+Step 7: Schedule Automation
+
+Set:
+
+Daily execution
+Weekly execution
+Trigger-based execution
+Exam Point
+
+Triggers are configured for automatic execution.
+
+
+
