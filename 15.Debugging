@@ -1,0 +1,141 @@
+Debugging in UiPath
+Definition
+
+Debugging is the process of identifying, analyzing, and removing errors from an automation workflow or project.
+
+Simple Definition for Exam
+
+Debugging is the process of identifying and removing errors from a given project.
+---------------------------------------------------
+
+Why Debugging is Needed?
+
+Debugging helps to:
+
+Find errors in workflows
+Fix issues before deployment
+Verify workflow logic
+Improve automation reliability
+Ensure correct output
+-------------------------------------------------
+Debugging Tools in UiPath
+
+1. Step Into
+Executes one activity at a time.
+Used for detailed analysis of workflow execution.
+Example
+
+Read Excel
+↓
+Assign
+↓
+Write Cell
+
+It moves through every activity individually.
+
+2. Step Over
+Executes the current activity and moves directly to the next activity.
+Used when detailed checking is not required.
+
+3. Validate
+Checks the workflow for errors before execution.
+Identifies:
+Missing variables
+Incorrect arguments
+Expression errors
+
+4. Breakpoints
+Pause execution at a specific activity.
+Helps inspect variable values and workflow behavior.
+Example
+Plain Text
+Activity 1
+Activity 2 ← Breakpoint
+Activity 3
+
+Execution stops at Activity 2.
+
+5. Slow Step
+Executes activities slowly.
+Makes it easier to observe each step during execution.
+
+6. Logs Section
+Displays workflow execution logs.
+Shows:
+Status messages
+Errors
+Activity information
+Debugging Panels
+
+---------------------------------------------------------------------
+When Start Debug is clicked, three important panels appear.
+
+1. Locals Panel
+Purpose
+Displays values of variables in the current scope.
+Highlights the currently executing activity.
+Example
+Plain Text
+Name = Harini
+Count = 10
+Total = 500
+
+2. Output Panel
+Purpose
+Displays execution logs and messages.
+Shows detailed workflow execution information.
+Example
+Plain Text
+Process Started
+Excel Opened
+Data Retrieved
+Process Completed
+
+3. Properties Inspector Panel
+Purpose
+Displays properties of the selected activity.
+Shows variable values and debugging information.
+
+
+Debugging Techniques
+1. Setting Breakpoints
+
+Pause execution at a specific location.
+
+2. Step Into
+
+Execute one activity at a time.
+
+3. Step Over
+
+Move directly to the next activity.
+
+4. Slow Step
+
+Reduce execution speed for observation.
+
+5. Highlight Elements
+
+Highlights the UI element currently being interacted with by the robot.
+------------------------------------------------------------------
+
+Common Automation Issues
+
+A. Element Not Found
+
+Occurs when UiPath cannot identify the UI element.
+
+Solution
+Send a window message.
+Use Indicate on Screen to reselect the element.
+Use UI Explorer to improve the selector.
+
+B. Timing Issue
+
+Occurs when the application loads slowly and the robot executes before the element appears.
+
+Solution
+Increase Delay
+Use Wait for Ready
+Add Retry mechanisms
+Use Element Exists activity
