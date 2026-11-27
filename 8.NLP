@@ -1,0 +1,67 @@
+Natural Language Processing (NLP)
+Definition
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) that enables computers to understand, interpret, analyze, and process human languages.
+
+In simple terms, NLP helps computers understand the language humans use for communication.
+
+NLP in Action
+
+Consider the customer message:
+
+"The product quality is very good, but delivery was delayed."
+
+A normal computer sees this as a collection of text characters.
+
+Using NLP, the system can understand the meaning of the sentence and identify:
+
+Product Quality → Positive Opinion ✅
+Delivery → Negative Opinion ❌
+
+Thus, NLP helps computers understand human communication and extract meaningful information from text.
+
+Why is NLP Required in UiPath?
+
+Traditional RPA works mainly with:
+
+Structured data
+Fixed rules
+Predefined instructions
+
+However, businesses receive large amounts of unstructured data, such as:
+
+Customer feedback
+Emails
+PDF documents
+Chat messages
+Support requests
+Survey responses
+
+NLP helps UiPath workflows understand and process this text data and make intelligent decisions automatically.
+
+NLP + UiPath: Customer Email Processing
+
+Consider an organization receiving hundreds of customer emails daily.
+
+The process works as follows:
+
+Step 1: Read Emails
+
+UiPath reads customer emails automatically.
+
+Step 2: Analyze Text
+
+NLP analyzes the content of the email.
+
+Step 3: Identify Category
+
+The system determines whether the email is:
+
+Complaint
+Enquiry
+Appreciation
+Step 4: Take Action
+
+UiPath automatically forwards the email to the appropriate department.
+
+Therefore, NLP makes RPA workflows more intelligent and capable of handling unstructured text.
