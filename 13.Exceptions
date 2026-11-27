@@ -1,0 +1,37 @@
+What is an Exception?
+Definition
+
+An Exception is any error that disturbs the normal flow of instructions during the execution of a program.
+
+Simple Explanation
+
+Normally a program executes step by step:
+
+step1-->step2-->step3
+
+If an error occurs:
+step1-->step2-->error
+
+The interruption is called an Exception.
+-------------------------------------------
+Deviation
+
+An exception can also be viewed as a deviation from the expected business output.
+xample
+
+Expected Output:
+Invoice Amount = ₹5000
+
+Actual Output:
+Blank Value
+
+This deviation creates an exception.
+---------------------------------------------------------
+General Exceptions
+
+Some common exceptions are:
+
+Time Exception
+I/O Exception
+User Exception
+Class Exception
