@@ -1,0 +1,112 @@
+Definition
+
+Exception Handling is the process of identifying, managing, and recovering from exceptions that occur during program execution.
+
+Need for Exception Handling
+1. Responsive Process
+
+Handles errors that occur during run-time.
+
+2. Precautionary Method
+
+Prevents deviation from expected output.
+
+3. Resume Execution
+
+Allows the process to continue or restart from the interruption point.
+----------------
+TYPES:
+
+(i)System Exception
+Definition
+
+A System Exception occurs when the automation process fails because of technical or system-related problems.
+
+Causes
+Network failure
+Application crash
+Database failure
+Missing file
+Server unavailable
+Outlook failure
+
+Example
+
+Robot tries to open:
+
+Plain Text
+Invoice.xlsx
+
+But the file is unavailable.
+
+➡️ System Exception
+
+Example from Slide
+
+Outlook is not working.
+
+Robot cannot open email attachments.
+
+➡️ System Exception
+
+Solution
+Use Try-Catch activities
+Retry Scope
+Validation checks
+Error-proof coding
+-----------------------
+5. Business Rule Exception
+Definition
+
+A Business Rule Exception occurs when a business rule
+or condition is violated even though the system is functioning correctly.
+
+Causes
+Invalid data
+Missing mandatory fields
+Incorrect values
+Business rule violations
+Example
+
+Business Rule:
+
+
+Customer age must be above 18.
+ 
+
+Input:
+
+
+Age = 15
+
+System is working.
+
+Business condition fails.
+
+➡️ Business Rule Exception
+
+Example from Slide
+
+The robot identifies emails based on a specific subject.
+
+Expected:
+
+
+Invoice Request
+
+Actual:
+
+
+Invoice
+Invoice Req
+Request for Invoice
+
+Robot cannot identify the mail.
+
+➡️ Business Rule Exception
+
+Solution
+Use standard formats
+Data validation
+Unique identifiers
+Business rule checks
